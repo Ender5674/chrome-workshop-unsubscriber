@@ -19,7 +19,13 @@ Once installed, you can visit your list of subscribed workshop items and you'll 
 
 # WARNING
 
-Once started, there is no UI to stop it. There is also no confirmation window. Use at your own risk. This will not unsubscribe items from multiple games.
+THIS TOOL MAKES CHANGES TO YOUR STEAM ACCOUNT. USE WITH CAUTION.
+
+ONCE STARTED, THERE IS NO UI OPTION TO STOP THE PROCESS. THERE IS NO CONFIRMATION WINDOW EITHER.
+
+THIS TOOL WILL NEVER APPEAR ON THE CHROME APP STORE OR ANY OTHER DISTRIBUTION SERVICE. DO NOT USE ANY 3RD PARTY STEAM TOOL WHOSE CODE YOU CAN NOT VERIFY EASILY YOURSELF.
+
+THIS TOOL WILL NEVER ASK FOR YOUR STEAM CREDENTIALS. NEVER GIVE OUT YOUR STEAM CREDENTIALS TO ANY THIRD PARTY SOFTWARE OR SERVICE!
 
 # FAQ
 
@@ -28,6 +34,8 @@ Once started, there is no UI to stop it. There is also no confirmation window. U
 This is code that manipulates your steam account. Everyone should be skeptical and weary about executing code like this. By ensuring that you download from github is what you run, you can ensure that the code you see here is what you are running.
 
 If you are unsure about executing this code, then ask someone who can understand this code to vet it for you.
+
+Remember, this is about trust and I want to make sure this code is trustworthy considering the potential for abuse that exists here. As such, this tool will NEVER be available anywhere outside of github.
 
 ## Firefox?
 
