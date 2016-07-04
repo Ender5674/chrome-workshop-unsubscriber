@@ -1,24 +1,34 @@
-# chrome-workshop-unsubscriber
-Chrome extension to automate mass unsubscribing all workshop items
+# Workshop Unsubscriber for Chrome
 
-When you visit your list of subscribed items for a particular game, a button will be displayed in the upper left corner. Click that button, and this script will unsubscribe off everything on the screen, reload the page, see if there is anything left, unsubscribe to that, and keep going till there is nothing left.
+Games like Space Engineers and Garrys Mod and many others have large modding communities. Sometimes you might be tempted to download hundreds if not thousands of mods.
 
-This script does not in anyway attempt to do anything abusive. I enjoy many games on Steam that have highly active modding communities. Sometimes I need to do a reset of the hundreds of even thousands of items I subscribed to.
+But then something goes wrong, you don't know what's causing the problem so all you want to do unsubscribe from everything and start fresh. Unfortunately, the Workshop UI is, let's say, lacking in functionality. It's very tedious to unsubscribe from everything. This tool helps make the process far less tedious.
 
-The code is open. Feel free to have someone knowledgeable vet it for you.
+## How it Works
 
-# Instructions
+Once installed, you can visit your list of subscribed workshop items and you'll notice that there is a white square in the upper left corner. Click that square, the extension goes to work, clicking every unsubscribe button on the page, waiting for everything to finish, then reloading the page and seeing if there are any more unsubscribe buttons. If there are more, then the whole process loops over until there are no more items left to unsubscribe.
 
-Download manifest.json and unsubsciber.js to a directory.
+## Installation
 
-Open the extensions setting in Chrome. Enable developer mode. Clicked Load Unpacked Extension, point to the directory you put those two files in, and you're done.
+1. Download manifest.json and unsubsciber.js to a directory.
+2. Open the extensions setting in Chrome. 
+3. Enable developer mode. 
+4. Clicked Load Unpacked Extension, point to the directory you put those two files in
+5. Visit your list of subscribed workshop items
+6. Click the white square in the upper left corner and enjoy
 
 # FAQ
 
-## Why isn't this on the app store?
+## Why isn't this on the chrome app store?
 
-To ensure that there is no fuzziness with regards to the code you're running on your browser. What you see here on github is what you get.
+This is code that manipulates your steam account. Everyone should be skeptical and weary about executing code like this. By ensuring that you download from github is what you run, you can ensure that the code you see here is what you are running.
+
+If you are unsure about executing this code, then ask someone who can understand this code to vet it for you.
 
 ## Firefox?
 
-Well, the code is simple enough so if someone wants to port this to firefox I'd happily accept a pull request or feel free to fork it.
+Well, I don't plan on doing it myself any time soon, but this code is simple enough that anyone else is free to submit a pull request or fork this to port it to Firefox.
+
+## Does this violate Steam TOS?
+
+I can not see anything that would prevent using such a tool. However, there may be reasons we are not aware for Valve not letting us "unsubscribe to all". You use this at your own risk.
