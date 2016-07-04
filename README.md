@@ -10,7 +10,7 @@ Once installed, you can visit your list of subscribed workshop items and you'll 
 
 ## Installation
 
-1. Download manifest.json and unsubsciber.js to a directory.
+1. Download [manifest.json](https://github.com/mookfist/chrome-workshop-unsubscriber/raw/master/manifest.json) and [unsubsciber.js](https://github.com/mookfist/chrome-workshop-unsubscriber/raw/master/unsubscriber.js) to a directory.
 2. Open the extensions setting in Chrome. 
 3. Enable developer mode. 
 4. Clicked Load Unpacked Extension, point to the directory you put those two files in
