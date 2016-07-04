@@ -17,6 +17,10 @@ Once installed, you can visit your list of subscribed workshop items and you'll 
 5. Visit your list of subscribed workshop items
 6. Click the white square in the upper left corner and enjoy
 
+# WARNING
+
+Once started, there is no UI to stop it. There is also no confirmation window. Use at your own risk. This will not unsubscribe items from multiple games.
+
 # FAQ
 
 ## Why isn't this on the chrome app store?
